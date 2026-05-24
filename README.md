@@ -1,6 +1,6 @@
-#Task Objective
+# Task Objective
 The objective of this project is to predict whether a bank customer will subscribe to a term deposit using machine learning techniques. The project aims to analyze customer and marketing campaign data to identify patterns that influence subscription decisions and improve marketing effectiveness. 
-#Approach
+# Approach
 Approach included the following steps: loaded and explored the Bank Marketing dataset using Python and Pandas, performed data cleaning and preprocessing, including handling categorical variables through encoding, conducted Exploratory Data Analysis (EDA) using visualizations such as histograms, count plots, heatmaps, ROC curve, and confusion matrix, built a Random Forest classification model to predict term deposit subscriptions, evaluated model performance using accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix and applied SHAP explainability techniques to interpret and explain individual model predictions. 
-#Results and Findings
+# Results and Findings
 The Random Forest model achieved an accuracy of approximately 83%, the model showed balanced performance across both subscription and non-subscription classes, features such as contact duration, account balance, and loan status had significant impact on predictions, SHAP analysis improved model interpretability by explaining how different features influenced customer subscription decisions and the project demonstrates how machine learning can help banks improve customer targeting and optimize marketing campaigns efficiently. 
